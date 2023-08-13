@@ -1,11 +1,11 @@
 n=int(input())
-x=n
+t=n
 s=0
-while n!=0:
-    r=n%10
-    s=s*10+r
+while(n!=0):
+    d=n%10
+    s=s*10+d
     n=n//10
-if s==x:
-    print("True")
+if(t==s):
+    print("Palindrome")
 else:
-    print("False")
+    print("Not Palindrome")
