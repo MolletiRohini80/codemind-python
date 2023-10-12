@@ -1,4 +1,4 @@
-a=int(input())
-b=int(input())
-c=(a*b)//2
-print(c)
+n=int(input())
+m=int(input())
+a=(n*m)/2
+print("%d"%a)
