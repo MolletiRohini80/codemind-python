@@ -1,6 +1,7 @@
-a=int(input())
-b=int(input())
-c=int(input())
-d=(5*a+10*b)
-e=d//c
-print(e)
+a=float(input())
+b=float(input())
+c=float(input())
+x=5*a+10*b
+y=x/c
+z=int(y)
+print("%d"%z)
