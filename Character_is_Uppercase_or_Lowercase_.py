@@ -1,7 +1,7 @@
 ch=input()
 if(ch>='A' and ch<='Z'):
-    print("uppercase alphabet");
+    print("uppercase alphabet")
 elif(ch>='a' and ch<='z'):
-    print("lowercase alphabet");
+    print("lowercase alphabet")
 else:
-    print("not an alphabet");
+    print("not an alphabet")
